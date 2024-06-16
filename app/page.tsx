@@ -52,7 +52,7 @@ export default function Home() {
         <div className="w-full pt-20">
           {/* <SliderOne /> */}
           <SalesLetter />
-          <Reviews />
+          {/* <Reviews /> */}
           {/* <Services /> */}
 
           <FAQS />
