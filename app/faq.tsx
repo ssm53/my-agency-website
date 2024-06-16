@@ -23,35 +23,29 @@ const FAQS = () => {
         </div>
         <Accordion type="single" collapsible>
           <AccordionItem value="item-1">
-            <AccordionTrigger>What is RaveWave Digital?</AccordionTrigger>
+            <AccordionTrigger>Do I pay first?</AccordionTrigger>
             <AccordionContent>
-              RaveWave Digital is a tech and marketing agency fully focusing on
-              clinics.
+              Nope, we will make one for you. If you don't like it, you don't
+              have to pay me anything.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-2">
-            <AccordionTrigger>How to start ?</AccordionTrigger>
-            <AccordionContent>
-              You can start by contacting us at +60123397028. We will get back
-              to you within 24 hours.
-            </AccordionContent>
+            <AccordionTrigger>
+              In how long can I get my website?
+            </AccordionTrigger>
+            <AccordionContent>Max of 7 days. Average 3 days.</AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-3">
-            <AccordionTrigger>
-              100% money-back guarantee? Really?
-            </AccordionTrigger>
+            <AccordionTrigger>Do I have anything to lose?</AccordionTrigger>
             <AccordionContent>
-              Yes, for our Google Services, if we do not improve your clinic's
-              Google Ratings and Reviews, that means we failed and will return
-              all your money back.
+              Nope, you don't. As mentioned above, if you don't like it, you
+              don't pay anything. 0% risk for you.
             </AccordionContent>
           </AccordionItem>
 
           <AccordionItem value="item-4">
-            <AccordionTrigger>Support ?</AccordionTrigger>
-            <AccordionContent>
-              We offer 24 hours Monday-Sunday support for all our clients.
-            </AccordionContent>
+            <AccordionTrigger>How do I contact you?</AccordionTrigger>
+            <AccordionContent>Whatsapp me on +6012 - 339 7028</AccordionContent>
           </AccordionItem>
         </Accordion>
       </div>
