@@ -17,12 +17,10 @@ const Pricing = () => {
         Originally priced at <span className="line-through">RM2000</span>, now
         available for only{" "}
         <span className="text-blue-500 font-bold">RM300</span>!
+        <br /> <br />
+        One Time Payment.
         <br />
-        Take advantage of this special offer to boost your Google ratings and
-        reviews.
-        <br />
-        <br />
-        If we don't improve it, you get 100% of your money back.
+        100% Money Back Guarantee
       </p>
     </div>
   );
