@@ -23,23 +23,26 @@ const FAQS = () => {
         </div>
         <Accordion type="single" collapsible>
           <AccordionItem value="item-1">
-            <AccordionTrigger>Do I pay first?</AccordionTrigger>
+            <AccordionTrigger>Do I really get my money-back?</AccordionTrigger>
             <AccordionContent>
-              Nope, we will make one for you. If you don't like it, you don't
-              have to pay me anything.
+              Yes, if we don't improve your Google ratings & reviews, we will
+              give ALL of your money back.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-2">
             <AccordionTrigger>
-              In how long can I get my website?
+              How can you increase my ratings & reviews?
             </AccordionTrigger>
-            <AccordionContent>Max of 7 days. Average 3 days.</AccordionContent>
+            <AccordionContent>
+              We've built a 'Reputation Management' software. It filters out bad
+              reviews. Only good reviews go to Google.
+            </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-3">
             <AccordionTrigger>Do I have anything to lose?</AccordionTrigger>
             <AccordionContent>
-              Nope, you don't. As mentioned above, if you don't like it, you
-              don't pay anything. 0% risk for you.
+              Nope, you don't. As mentioned above, if we don't deliver you
+              results, you get all of your money back.
             </AccordionContent>
           </AccordionItem>
 
