@@ -12,6 +12,7 @@ import SalesLetter from "./sales-letter";
 import Reviews from "./reviews";
 import Founder from "./founder";
 import Pricing from "./pricing";
+import WhyItMatters from "./why-it-matters";
 
 export default function Home() {
   // const servicesRef = useRef<HTMLDivElement>(null);
@@ -35,11 +36,12 @@ export default function Home() {
       <Spotlight className="hidden md:flex md:left-80" />
       <div className="p-4 mx-auto relative z-10 w-full pt-10 md:pt-20 px-2">
         <div className="text-4xl pb-5 md:text-7xl px-6 text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to bg-neutral-400 bg-opacity-50">
-          Attention F&B Owners, <br />
+          ATTENTION BUSINESS OWNERS! <br />
+          <br />
           Boost Your Google Ratings & Reviews Today!
         </div>
         <p className="pt-4 text-lg font-normal text-neutral-300 max-w-lg text-center mx-auto px-4">
-          Experience Guaranteed Results, <br />
+          Get Guaranteed Results, <br />
           or Get 100% of Your Money Back.
         </p>
         <Link
@@ -55,6 +57,7 @@ export default function Home() {
           {/* <SliderOne /> */}
           <Pricing />
           <SalesLetter />
+          <WhyItMatters />
           <Founder />
           {/* <Reviews /> */}
           {/* <Services /> */}

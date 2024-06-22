@@ -21,10 +21,11 @@ const Founder = () => {
           About the Founder
         </h2>
         <p className="mt-4 text-lg font-normal max-w-lg mx-auto md:mx-0">
-          Yellow there, I'm Shaun Menezes, and I run RaveWave Digital. Hope all
-          is groovy with you whilst you're reading this!
-          <br />
-          <br /> I realised that many F&B outlets were spending (or wasting)
+          Yellow there, <br />
+          I'm Shaun Menezes, and I run RaveWave Digital. Hope all is groovy with
+          you whilst you're reading this!
+          <br /> <br />
+          {/* <br /> I realised that many F&B outlets were spending (or wasting)
           thousands trying to market their outlet. <br />
           <br />I thought to myself that there must be way to market F&B outlets
           with guaranteed results without spending thousands each month. <br />
@@ -35,20 +36,27 @@ const Founder = () => {
           you results.. Hence, I give you all your money back if I don't deliver
           you results.
           <br />
+          <br /> */}
+          A little bit about me... <br />I was working in finance/accounting in
+          the UK, and was living my dream of working in an 'orang putih' country
+          enjoying those British Pounds! <br />
           <br />
-          A little bit about me... <br />I was working in finance in the UK, and
-          was living my dream of working in an 'orang putih' country enjoying
-          those British Pounds! <br />
-          <br />
-          But I wanted to follow my dream of being an entrepreneur, so I risked
-          it all to start a crypto company, which generated RM1.2 million. In
-          2023, I sold my share and learnt to code. <br />
-          <br />
-          Now, I'm applying those skills in my new venture, RaveWave Digital!{" "}
+          But I've always wanted to add value to people, and the best way I know
+          to do that is through entrepeneurship... so I risked it all, came back
+          to Malaysia to start a crypto company, which generated revenue of 7
+          figures. In 2023, I moved on from that project and learnt to code.{" "}
           <br />
           <br />
-          Btw, if you ever to meet up for coffee just to have a chat about
-          anything, let's go! Coffee's on me!
+          Whilst all this, I sort of did my own research and had chats with
+          various business owners about their business. <br />
+          <br />
+          I found that many of them cared about their Google reviews &
+          ratings...but didn't exactly know how to improve it. In particular,
+          they were scared of bad reviews.
+          <br />
+          <br />I wanted to fix this, and together with my tech skills, I
+          started RaveWave Digital. <br />
+          <br />I can't wait to add vaue to your business!
         </p>
       </div>
     </div>

@@ -3,6 +3,7 @@
 
 import Link from "next/link";
 import "./globals.css"; // Ensure this points to where your CSS is located
+import { Bold } from "lucide-react";
 
 const SalesLetter = () => {
   return (
@@ -14,9 +15,25 @@ const SalesLetter = () => {
       >
         Transform Your Google Reviews & Ratings Today
       </div>
-      <p className="mt-4 text-lg font-normal text-neutral-300 max-w-lg text-left mx-auto">
-        Dear F&B Owners, let’s have a candid conversation. <br />
-        <br /> Are you monitoring your Google reviews and ratings? If not, they
+      <p className="mt-4 text-lg font-normal text-neutral-300 max-w-lg text-center mx-auto">
+        Dear Business Owners,
+        <br />
+        <br />
+        We've created a strategy that filters out negative Google reviews.
+        <br />
+        <br />
+        That's right... only good reviews go to Google. Bad reviews will not!{" "}
+        <br />
+        <br />
+        When someone finds your business on Google, my aim is for them to go
+        "Wow this business looks great!"
+        <br />
+        <br />
+        If we don’t improve your reviews & ratings, you pay RM 0 and get all
+        your money back. <br />
+        <br />
+        Sounds fair? Let's chat on whatsapp.
+        {/* <br /> Are you monitoring your Google reviews and ratings? If not, they
         may be suffering by default. <br /> <br />
         Every day, more customers search for F&B places on Google, making their
         decision about your establishment in just 5 seconds! That's right....
@@ -45,7 +62,7 @@ const SalesLetter = () => {
         This gives us the confidence to promise better reviews and ratings on
         Google. <br />
         <br />
-        If we don’t deliver, you pay RM 0 and get all your money back.
+        If we don’t deliver, you pay RM 0 and get all your money back. */}
       </p>
       <Link
         href={"https://wa.me/60123397028"}
