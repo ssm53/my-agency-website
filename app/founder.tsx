@@ -43,9 +43,9 @@ const Founder = () => {
           <br />
           But I've always wanted to add value to people, and the best way I know
           to do that is through entrepeneurship... so I risked it all, came back
-          to Malaysia to start a crypto company, which generated revenue of 7
-          figures. In 2023, I moved on from that project and learnt to code.{" "}
-          <br />
+          to Malaysia to start a crypto company, which generated revenue of over
+          RM 1 million . In 2023, I moved on from that project and learnt to
+          code. <br />
           <br />
           Whilst all this, I sort of did my own research and had chats with
           various business owners about their business. <br />
