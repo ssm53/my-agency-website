@@ -16,7 +16,7 @@ const Pricing = () => {
       <p className="mt-4 text-lg font-normal text-neutral-300 max-w-lg mx-auto">
         Originally priced at <span className="line-through">RM2000</span>, now
         available for only{" "}
-        <span className="text-blue-500 font-bold">RM300</span>!
+        <span className="text-blue-500 font-bold">RM500</span>!
         <br /> <br />
         One Time Payment.
         <br />
