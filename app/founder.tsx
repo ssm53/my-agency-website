@@ -37,21 +37,20 @@ const Founder = () => {
           you results.
           <br />
           <br /> */}
-          A little bit about me... <br />I was working in finance/accounting in
-          the UK, and was living my dream of working in an 'orang putih' country
-          enjoying those British Pounds! <br />
+          A little bit about me... <br />I was working as a financial accountant
+          in Deloitte, UK. I was happy.... <br />
           <br />
-          But I've always wanted to add value to people, and the best way I know
+          but I've always wanted to add value to people, and the best way I know
           to do that is through entrepeneurship... so I risked it all, came back
           to Malaysia to start a crypto company, which generated revenue of over
           RM 1 million . In 2023, I moved on from that project and learnt to
           code. <br />
           <br />
-          Whilst all this, I sort of did my own research and had chats with
-          various GP and Dental Clinic owners. <br />
+          Whilst I was learning, I talked to many GP & Dental clinic owners and
+          ran my own research. <br />
           <br />
-          I found that many of them wanted to market their clinic... but didn't
-          know how to?
+          Long story short, I found that many doctors/dentists wanted to market
+          their clinic... but didn't know how to?
           <br />
           <br />I wanted to fix this, and together with my tech skills, I
           started RaveWave Digital. <br />
