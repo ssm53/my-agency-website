@@ -21,7 +21,7 @@ const StepByStep = ({
       <p className="mt-4 text-lg font-normal text-neutral-300 max-w-lg text-center mx-auto">
         <strong>STEP 1</strong>
         <br />
-        Ensure your Google Reviews & Ratings are brilliant with my tech system,{" "}
+        We guarantee to improve your Google Reviews & Ratings with{" "}
         <strong
           className="underline cursor-pointer"
           onClick={scrollToSalesLetter}
@@ -32,8 +32,8 @@ const StepByStep = ({
         <br />
         <strong>STEP 2</strong>
         <br />
-        I will build you a beautiful website with a focus on getting potential
-        patients to contact you.
+        We create a stunning website for you, designed to drive patients to
+        contact you.
         <br />
         <br />
         <strong>STEP 3</strong>

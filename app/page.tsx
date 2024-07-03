@@ -18,7 +18,7 @@ export default function Home() {
   const scrollToSalesLetter = () => {
     salesLetterRef.current?.scrollIntoView({
       behavior: "smooth",
-      block: "start",
+      // block: "start",
       inline: "nearest",
     });
   };
@@ -31,20 +31,19 @@ export default function Home() {
         <div className="text-4xl pb-5 md:text-7xl px-6 text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to bg-neutral-400 bg-opacity-50">
           ATTENTION GP & DENTAL CLINIC OWNERS <br />
           <br />
-          We specialise in helping you appear Top 3 in Google via Google Ads
+          We'll get your clinic to the top of Google
         </div>
         <p className="pt-4 text-lg font-normal text-neutral-300 max-w-lg text-center mx-auto px-4">
           Get Guaranteed Results, <br />
           or Get 100% of Your Money Back.
         </p>
         <QualifyModal scrollToSalesLetter={scrollToSalesLetter} />
-        <Link
+        {/* <Link
           href={"https://wa.me/60123397028"}
-          className="cursor-pointer flex items-center justify-center border rounded-full w-48 p-2 mx-auto my-6 text-white hover:text-black hover:bg-white"
+          className="cursor-pointer flex items-center justify-center border rounded-lg w-48 p-2 mx-auto my-6 text-white hover:text-black hover:bg-white"
         >
           Chat on Whatsapp
-        </Link>
-
+        </Link> */}
         <div className="w-full pt-20">
           <StepByStep scrollToSalesLetter={scrollToSalesLetter} />
           <div ref={salesLetterRef}>

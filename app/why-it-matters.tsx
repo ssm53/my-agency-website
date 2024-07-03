@@ -16,16 +16,14 @@ const WhyItMatters = () => {
         Why Do Google Reviews & Ratings Matter?
       </div>
       <p className="mt-4 text-lg font-normal text-neutral-300 max-w-lg text-center mx-auto">
-        People judge your business online in 5 seconds.
+        People judge your clinic online in 5 seconds.
         <br />
         <br />
         5 seconds?? Yeap, all they need to see is your Google reviews & ratings.
         <br />
         <br />
-        If it's bad, they'll just ignore your business.
+        If it's bad, they'll just ignore your clinic.
         <br />
-        <br />
-        If it's good, then they will look further into your business. <br />
         <br />
         Odds are, you have a great business, which provides value to your
         customers. <br />

@@ -4,6 +4,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import "./globals.css"; // Ensure this points to where your CSS is located
+import { IoCloseOutline } from "react-icons/io5";
 
 const QualifyModal = ({
   scrollToSalesLetter,
@@ -27,11 +28,11 @@ const QualifyModal = ({
 
     if (ratingValue > 4.3 && reviewsValue > 100) {
       setMessage(
-        "Perfect, your clinic qualifies! You worked hard to ensure your reputation online is solid. Now, let's get you to the top of Google."
+        "Perfect! You worked hard to ensure your reputation online is solid. Now, let's get you to the top of Google."
       );
     } else {
       setMessage(
-        "Great news, whatever your sales are at the moment, there is so much room for improvement! Before we start running Google Ads, it's important to have solid Google reviews & ratings. I created RatingUp, which is a tech system which filters out the bad reviews from Google. So, I guarantee to improve your Google reviews & ratings...or you get 100% of your money back."
+        "Great news doc, there is so much we can do to increase your revenue! It's important to have solid Google reviews & ratings before spending a few thousand each month on Google Ads... So I created RatingUp - a tech system which filter out bad reviews before reaching Google. So, I guarantee to improve your Google reviews & ratings...or you get 100% of your money back."
       );
     }
   };
@@ -43,11 +44,17 @@ const QualifyModal = ({
 
   return (
     <div className="text-center">
-      <button
+      {/* <button
         onClick={toggleModal}
-        className="cursor-pointer flex items-center justify-center border rounded-full w-48 p-2 mx-auto my-6 text-white hover:text-black hover:bg-white"
+        className="cursor-pointer flex items-center justify-center border rounded-lg w-48 p-2 mx-auto my-6 text-white hover:text-black hover:bg-white"
       >
         Let's see if you qualify
+      </button> */}
+      <button
+        onClick={toggleModal}
+        className="cursor-pointer flex items-center justify-center border rounded-lg w-80 p-2 mx-auto my-6 text-white hover:text-black hover:bg-white shimmer-effect font-extrabold"
+      >
+        CHECK IF YOUR CLINIC IS SUITABLE
       </button>
       {isOpen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
@@ -56,7 +63,7 @@ const QualifyModal = ({
               onClick={toggleModal}
               className="absolute top-2 right-2 text-black"
             >
-              X
+              <IoCloseOutline className="text-lg" />
             </button>
             <h2 className="text-2xl font-bold mb-4">Check if you qualify</h2>
             <form onSubmit={handleSubmit}>

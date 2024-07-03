@@ -114,3 +114,17 @@
   color: #fff;
   animation: shimmer 2s linear infinite;
 }
+
+@keyframes shimmer {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+}
+
+.shimmer-effect {
+  animation: shimmer 1.5s infinite;
+}

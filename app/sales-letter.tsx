@@ -13,14 +13,10 @@ const SalesLetter = () => {
          bg-clip-text text-transparent bg-gradient-to-b
           from-blue-500 to-neutral-50 bg-opacity-50 mt-20"
       >
-        Transform Your Google Reviews & Ratings Today with RatingUp
+        Transform Your Google Reviews & Ratings with RatingUp
       </div>
       <p className="mt-4 text-lg font-normal text-neutral-300 max-w-lg text-center mx-auto">
-        Dear Business Owners,
-        <br />
-        <br />
-        With RatingUp, we've created a strategy that filters out negative Google
-        reviews.
+        We've created a strategy that filters out negative Google reviews.
         <br />
         <br />
         That's right... only good reviews go to Google. Bad reviews will not!{" "}
