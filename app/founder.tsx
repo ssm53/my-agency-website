@@ -48,11 +48,10 @@ const Founder = () => {
           code. <br />
           <br />
           Whilst all this, I sort of did my own research and had chats with
-          various business owners about their business. <br />
+          various GP and Dental Clinic owners. <br />
           <br />
-          I found that many of them cared about their Google reviews &
-          ratings...but didn't exactly know how to improve it. In particular,
-          they were scared of bad reviews.
+          I found that many of them wanted to market their clinic... but didn't
+          know how to?
           <br />
           <br />I wanted to fix this, and together with my tech skills, I
           started RaveWave Digital. <br />

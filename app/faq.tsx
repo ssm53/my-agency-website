@@ -25,8 +25,8 @@ const FAQS = () => {
           <AccordionItem value="item-1">
             <AccordionTrigger>Do I really get my money-back?</AccordionTrigger>
             <AccordionContent>
-              Yes, if we don't improve your Google ratings & reviews, we will
-              give ALL of your money back.
+              Yes, if we don't deliver you results, you get 100% of your
+              money-back.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-2">
@@ -34,8 +34,8 @@ const FAQS = () => {
               How can you increase my ratings & reviews?
             </AccordionTrigger>
             <AccordionContent>
-              We've built a 'Reputation Management' software. It filters out bad
-              reviews. Only good reviews go to Google.
+              We've built a 'RatingUp' software. It filters out bad reviews.
+              Only good reviews go to Google.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-3">

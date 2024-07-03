@@ -13,13 +13,14 @@ const SalesLetter = () => {
          bg-clip-text text-transparent bg-gradient-to-b
           from-blue-500 to-neutral-50 bg-opacity-50 mt-20"
       >
-        Transform Your Google Reviews & Ratings Today
+        Transform Your Google Reviews & Ratings Today with RatingUp
       </div>
       <p className="mt-4 text-lg font-normal text-neutral-300 max-w-lg text-center mx-auto">
         Dear Business Owners,
         <br />
         <br />
-        We've created a strategy that filters out negative Google reviews.
+        With RatingUp, we've created a strategy that filters out negative Google
+        reviews.
         <br />
         <br />
         That's right... only good reviews go to Google. Bad reviews will not!{" "}
@@ -32,37 +33,18 @@ const SalesLetter = () => {
         If we don’t improve your reviews & ratings, you pay RM 0 and get all
         your money back. <br />
         <br />
+        <p className="mt-4 text-lg font-normal text-neutral-300 max-w-lg mx-auto">
+          Originally priced at <span className="line-through">RM2000</span>, now
+          available for only{" "}
+          <span className="text-blue-500 font-bold">RM500</span>!
+          <br /> <br />
+          One Time Payment.
+          <br />
+          100% Money Back Guarantee
+        </p>{" "}
+        <br />
+        <br />
         Sounds fair? Let's chat on whatsapp.
-        {/* <br /> Are you monitoring your Google reviews and ratings? If not, they
-        may be suffering by default. <br /> <br />
-        Every day, more customers search for F&B places on Google, making their
-        decision about your establishment in just 5 seconds! That's right....
-        just 5 seconds!
-        <br />
-        <br />
-        Why? They do this by comparing your reviews and ratings with those of
-        your competitors. It’s an easy way for them to choose.
-        <br />
-        <br />
-        Even if your food and drinks are superior, it won't matter if this isn’t
-        reflected on Google. <br />
-        <br />
-        Customers will choose places with higher ratings and better reviews.
-        It's as simple as that.
-        <br /> <br />
-        We don't want this to happen to you... <br /> <br />
-        That’s why we’ve created a strategy that filters out negative reviews.
-        Only the positive reviews will appear on Google, while the negative ones
-        won’t.
-        <br />
-        <br />
-        That's right... only good reviews go to Google. Bad reviews will not!
-        <br />
-        <br />
-        This gives us the confidence to promise better reviews and ratings on
-        Google. <br />
-        <br />
-        If we don’t deliver, you pay RM 0 and get all your money back. */}
       </p>
       <Link
         href={"https://wa.me/60123397028"}
