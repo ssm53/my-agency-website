@@ -29,6 +29,7 @@ export default function Home() {
   // const scrollToFaq = () => {
   //   faqRef.current?.scrollIntoView({ behavior: "smooth" });
   // };
+  //
 
   return (
     <div className="w-full md:items-center md: justify-center bg-black/[0.96] antialiased bg-grid-whilte/[0.02] relative overflow-hidden">
