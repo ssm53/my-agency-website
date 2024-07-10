@@ -26,7 +26,7 @@ const QualifyModal = ({
     const ratingValue = parseFloat(rating);
     const reviewsValue = parseInt(reviews);
 
-    if (ratingValue > 4.3 && reviewsValue > 100) {
+    if (ratingValue > 4.0 && reviewsValue > 50) {
       setMessage(
         "Perfect! You worked hard to ensure your reputation online is solid. Now, let's get you to the top of Google."
       );

@@ -26,6 +26,14 @@ const SalesLetter = () => {
         "Wow this business looks great!"
         <br />
         <br />
+        Google Ads can work wonders for your clinic and alot of people will see
+        your clinic on Google, but if your reviews & ratings are bad, you don't
+        want people to see your clinic yet, and hence spending on Google Ads now
+        can be a waste of money. Focus on improving your online reputation
+        (Google reviews & ratings) first, then it's worth it to boost your
+        clinic with Google Ads.
+        <br />
+        <br />
         If we don’t improve your reviews & ratings, you pay RM 0 and get all
         your money back. <br />
         <br />

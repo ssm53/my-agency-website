@@ -33,11 +33,14 @@ export default function Home() {
           <br />
           We'll get your clinic to the top of Google
         </div>
-        <p className="pt-4 text-lg font-normal text-neutral-300 max-w-lg text-center mx-auto px-4">
-          Get Guaranteed Results, <br />
-          or Get 100% of Your Money Back.
-        </p>
         <QualifyModal scrollToSalesLetter={scrollToSalesLetter} />
+        <p className="pt-4 text-lg font-normal text-neutral-300 max-w-3xl text-center mx-auto px-4">
+          If you're not suitable, improve your Google Review & Ratings using{" "}
+          <strong>RatingUp</strong>
+          <br />
+          100% money-back guarantee if we don't improve your Google Reviews &
+          Ratings
+        </p>
         {/* <Link
           href={"https://wa.me/60123397028"}
           className="cursor-pointer flex items-center justify-center border rounded-lg w-48 p-2 mx-auto my-6 text-white hover:text-black hover:bg-white"

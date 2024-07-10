@@ -41,7 +41,7 @@ const StepByStep = ({
         Boost your clinic with Google Ads. <br />
         <br />
         <strong>STEP 4</strong> <br />
-        Appear as Top 3 on Google or get 100% of your money back.
+        Appear as Top 3 on Google.
       </p>
       <Link
         href={"https://wa.me/60123397028"}
