@@ -23,13 +23,26 @@ const FAQS = () => {
         </div>
         <Accordion type="single" collapsible>
           <AccordionItem value="item-1">
-            <AccordionTrigger>Do I really get my money-back?</AccordionTrigger>
+            <AccordionTrigger>
+              With RatingUp, do I really get my money-back?
+            </AccordionTrigger>
             <AccordionContent>
-              Yes, if we don't deliver you results, you get 100% of your
-              money-back.
+              Yes, if we don't improve your ratings & reviews, you get 100% of
+              your money-back.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-2">
+            <AccordionTrigger>
+              Why isn't every clinic suitable for Google Ads?
+            </AccordionTrigger>
+            <AccordionContent>
+              Google Ads will show your clinic, together with it's ratings &
+              reviews to thousands of people. I don't think it's wise to spend
+              on Google Ads, only to show your average ratings & reviews.
+              Improve that first, then it's worth to spend on Google Ads.
+            </AccordionContent>
+          </AccordionItem>
+          <AccordionItem value="item-3">
             <AccordionTrigger>
               How can you increase my ratings & reviews?
             </AccordionTrigger>
@@ -38,15 +51,17 @@ const FAQS = () => {
               Only good reviews go to Google.
             </AccordionContent>
           </AccordionItem>
-          <AccordionItem value="item-3">
-            <AccordionTrigger>Do I have anything to lose?</AccordionTrigger>
+          <AccordionItem value="item-4">
+            <AccordionTrigger>
+              How do you bring my clinic to the top of Google?
+            </AccordionTrigger>
             <AccordionContent>
-              Nope, you don't. As mentioned above, if we don't deliver you
-              results, you get all of your money back.
+              We use Google Ads, together with a stunning website built to push
+              customers to contact or book an appointment with you.
             </AccordionContent>
           </AccordionItem>
 
-          <AccordionItem value="item-4">
+          <AccordionItem value="item-5">
             <AccordionTrigger>How do I contact you?</AccordionTrigger>
             <AccordionContent>Whatsapp me on +6012 - 339 7028</AccordionContent>
           </AccordionItem>
