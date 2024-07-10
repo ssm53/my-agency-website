@@ -41,12 +41,12 @@ export default function Home() {
           100% money-back guarantee if we don't improve your Google Reviews &
           Ratings
         </p>
-        {/* <Link
+        <Link
           href={"https://wa.me/60123397028"}
           className="cursor-pointer flex items-center justify-center border rounded-lg w-48 p-2 mx-auto my-6 text-white hover:text-black hover:bg-white"
         >
           Chat on Whatsapp
-        </Link> */}
+        </Link>
         <div className="w-full pt-20">
           <StepByStep scrollToSalesLetter={scrollToSalesLetter} />
           <div ref={salesLetterRef}>
