@@ -22,12 +22,7 @@ const StepByStep = ({
         <strong>STEP 1</strong>
         <br />
         We guarantee to improve your Google Reviews & Ratings with{" "}
-        <strong
-          className="underline cursor-pointer"
-          onClick={scrollToSalesLetter}
-        >
-          RatingUp
-        </strong>
+        <strong className="underline cursor-pointer">RatingUp</strong>
         <br />
         <br />
         <strong>STEP 2</strong>

@@ -26,6 +26,24 @@ const SalesLetter = () => {
         "Wow this business looks great!"
         <br />
         <br />
+        People judge your clinic online in 5 seconds.
+        <br />
+        <br />
+        5 seconds?? Yeap, all they need to see is your Google reviews & ratings.
+        <br />
+        <br />
+        If it's bad, they'll just ignore your clinic.
+        <br />
+        <br />
+        Odds are, you have a great business, which provides value to your
+        customers. <br />
+        <br />
+        But your Google reviews & ratings are still bad!
+        <br />
+        <br />
+        Let's fix that.
+        <br />
+        <br />
         Google Ads can work wonders for your clinic and alot of people will see
         your clinic on Google, but if your reviews & ratings are bad, you don't
         want people to see your clinic yet, and hence spending on Google Ads now
@@ -40,7 +58,7 @@ const SalesLetter = () => {
         <p className="mt-4 text-lg font-normal text-neutral-300 max-w-lg mx-auto">
           Originally priced at <span className="line-through">RM2000</span>, now
           available for only{" "}
-          <span className="text-blue-500 font-bold">RM500</span>!
+          <span className="text-blue-500 font-bold">RM997</span>!
           <br /> <br />
           One Time Payment.
           <br />
@@ -52,7 +70,7 @@ const SalesLetter = () => {
       </p>
       <Link
         href={"https://wa.me/60123397028"}
-        className="cursor-pointer flex items-center justify-center border rounded-full w-48 p-2 mx-auto my-6 text-white button-shimmer"
+        className="cursor-pointer flex items-center justify-center border rounded-lg w-48 p-2 mx-auto my-6 text-white button-shimmer hover:text-blue-500"
       >
         Chat on Whatsapp
       </Link>

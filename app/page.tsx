@@ -11,6 +11,8 @@ import Pricing from "./pricing";
 import WhyItMatters from "./why-it-matters";
 import QualifyModal from "./qualify-modal";
 import StepByStep from "./step-by-step";
+import Services from "./services";
+import Reviews from "./reviews";
 
 export default function Home() {
   const salesLetterRef = useRef<HTMLDivElement>(null);
@@ -31,10 +33,20 @@ export default function Home() {
         <div className="text-4xl pb-5 md:text-7xl px-6 text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to bg-neutral-400 bg-opacity-50">
           ATTENTION GP & DENTAL CLINIC OWNERS <br />
           <br />
-          We'll get your clinic to the top of Google
+          We will market your clinic online
         </div>
-        <QualifyModal scrollToSalesLetter={scrollToSalesLetter} />
         <p className="pt-4 text-lg font-normal text-neutral-300 max-w-3xl text-center mx-auto px-4">
+          So you can focus on what you do best....practicing medicine/dentistry!
+          <br />
+        </p>
+        <Link
+          href={"https://wa.me/60123397028"}
+          className="cursor-pointer flex items-center justify-center border rounded-lg w-48 p-2 mx-auto my-6 text-white button-shimmer hover:text-blue-500 hover:bg-white"
+        >
+          Chat on Whatsapp
+        </Link>
+        {/* <QualifyModal scrollToSalesLetter={scrollToSalesLetter} /> */}
+        {/* <p className="pt-4 text-lg font-normal text-neutral-300 max-w-3xl text-center mx-auto px-4">
           If you're not suitable, improve your Google Review & Ratings using{" "}
           <strong>RatingUp</strong>
           <br />
@@ -46,13 +58,15 @@ export default function Home() {
           className="cursor-pointer flex items-center justify-center border rounded-lg w-48 p-2 mx-auto my-6 text-white hover:text-black hover:bg-white"
         >
           Chat on Whatsapp
-        </Link>
+        </Link> */}
         <div className="w-full pt-20">
-          <StepByStep scrollToSalesLetter={scrollToSalesLetter} />
+          <Services />
+          <Reviews />
+          {/* <StepByStep scrollToSalesLetter={scrollToSalesLetter} /> */}
           <div ref={salesLetterRef}>
             <SalesLetter />
           </div>
-          <WhyItMatters />
+          {/* <WhyItMatters /> */}
           <Founder />
           <FAQS />
         </div>
