@@ -33,7 +33,7 @@ export default function Home() {
         <div className="text-4xl pb-5 md:text-7xl px-6 text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to bg-neutral-400 bg-opacity-50">
           ATTENTION GP & DENTAL CLINIC OWNERS <br />
           <br />
-          We will market your clinic online
+          We will market your clinic online... sustainably
         </div>
         <p className="pt-4 text-lg font-normal text-neutral-300 max-w-3xl text-center mx-auto px-4">
           So you can focus on what you do best....practicing medicine/dentistry!

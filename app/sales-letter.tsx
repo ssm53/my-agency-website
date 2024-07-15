@@ -15,15 +15,11 @@ const SalesLetter = () => {
       >
         Transform Your Google Reviews & Ratings with RatingUp
       </div>
-      <p className="mt-4 text-lg font-normal text-neutral-300 max-w-lg text-center mx-auto">
+      <p className="mt-4 text-lg font-normal text-neutral-300 max-w-lg text-left mx-auto">
         We've created a strategy that filters out negative Google reviews.
         <br />
         <br />
         That's right... only good reviews go to Google. Bad reviews will not!{" "}
-        <br />
-        <br />
-        When someone finds your business on Google, my aim is for them to go
-        "Wow this business looks great!"
         <br />
         <br />
         People judge your clinic online in 5 seconds.
@@ -35,6 +31,10 @@ const SalesLetter = () => {
         If it's bad, they'll just ignore your clinic.
         <br />
         <br />
+        Before we explore more aggresive marketing techniques, your online
+        reputation (Google ratings & reviews) should be solid first.
+        <br />
+        <br />
         Odds are, you have a great business, which provides value to your
         customers. <br />
         <br />
@@ -42,14 +42,6 @@ const SalesLetter = () => {
         <br />
         <br />
         Let's fix that.
-        <br />
-        <br />
-        Google Ads can work wonders for your clinic and alot of people will see
-        your clinic on Google, but if your reviews & ratings are bad, you don't
-        want people to see your clinic yet, and hence spending on Google Ads now
-        can be a waste of money. Focus on improving your online reputation
-        (Google reviews & ratings) first, then it's worth it to boost your
-        clinic with Google Ads.
         <br />
         <br />
         If we don’t improve your reviews & ratings, you pay RM 0 and get all
