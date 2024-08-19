@@ -20,3 +20,12 @@ export default function RootLayout({
     </html>
   );
 }
+
+// i need a hero section
+// currently building - boltapply - create a cover letter in less than 15 seconds. currently in beta. to be released Q3 2024.
+// portfolio section - scrolls to below - done
+// reviews section - done
+// boltapply
+// clinitOS
+// ratingUp
+// websites and shits

@@ -31,7 +31,7 @@ const FAQS = () => {
               your money-back.
             </AccordionContent>
           </AccordionItem>
-          <AccordionItem value="item-2">
+          {/* <AccordionItem value="item-2">
             <AccordionTrigger>
               Why isn't every clinic suitable for Google Ads?
             </AccordionTrigger>
@@ -41,8 +41,8 @@ const FAQS = () => {
               on Google Ads, only to show your average ratings & reviews.
               Improve that first, then it's worth to spend on Google Ads.
             </AccordionContent>
-          </AccordionItem>
-          <AccordionItem value="item-3">
+          </AccordionItem> */}
+          {/* <AccordionItem value="item-3">
             <AccordionTrigger>
               How can you increase my ratings & reviews?
             </AccordionTrigger>
@@ -50,8 +50,8 @@ const FAQS = () => {
               We've built a 'RatingUp' software. It filters out bad reviews.
               Only good reviews go to Google.
             </AccordionContent>
-          </AccordionItem>
-          <AccordionItem value="item-4">
+          </AccordionItem> */}
+          {/* <AccordionItem value="item-4">
             <AccordionTrigger>
               How do you bring my clinic to the top of Google?
             </AccordionTrigger>
@@ -59,7 +59,7 @@ const FAQS = () => {
               We use Google Ads, together with a stunning website built to push
               customers to contact or book an appointment with you.
             </AccordionContent>
-          </AccordionItem>
+          </AccordionItem> */}
 
           <AccordionItem value="item-5">
             <AccordionTrigger>How do I contact you?</AccordionTrigger>

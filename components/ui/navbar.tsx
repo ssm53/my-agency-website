@@ -6,9 +6,10 @@ import Link from "next/link";
 import { useState } from "react";
 import { AlignJustify, X } from "lucide-react";
 import DropDownMenu from "../drop-down-menu";
-
+import { useRouter } from "next/navigation";
 const Navbar = () => {
   const [isDropDownVisible, setIsDropDownVisible] = useState(false);
+  const router = useRouter();
 
   const toggleDropDown = () => {
     setIsDropDownVisible(!isDropDownVisible);
@@ -18,12 +19,21 @@ const Navbar = () => {
     setIsDropDownVisible(false);
   };
 
+  const handleLogoClick = () => {
+    router.push("/");
+  };
+
   return (
     <div>
       <div className="p-6 md:p-10 flex items-center justify-between z-50">
         <div>
           <Link className="cursor-pointer" href="/">
-            <h1 className="text-slate-400 text-lg">RaveWave Digital</h1>
+            <h1
+              className="cursor-pointer text-slate-400 text-lg"
+              onClick={handleLogoClick}
+            >
+              RaveWave Digital
+            </h1>
             {/* <Image
               priority
               // src="/logo/logo.svg"
@@ -73,6 +83,18 @@ const Navbar = () => {
         </div>
 
         <div className="hidden md:flex">
+          <Link
+            href={"/portfolio"}
+            className="
+            inline-flex h-12 animate-shimmer items-center justify-center mr-5
+            rounded-md border border-slate-800 bg-gray-100 px-6 font-medium text-slate-900 transition-colors
+             focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2
+              focus:ring-offset-slate-50
+
+            "
+          >
+            Portfolio
+          </Link>
           <Link
             href={"https://wa.me/60123397028"}
             className="

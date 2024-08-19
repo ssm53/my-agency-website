@@ -25,35 +25,23 @@ const Founder = () => {
           I'm Shaun Menezes, and I run RaveWave Digital. Hope all is groovy with
           you whilst you're reading this!
           <br /> <br />
-          {/* <br /> I realised that many F&B outlets were spending (or wasting)
-          thousands trying to market their outlet. <br />
-          <br />I thought to myself that there must be way to market F&B outlets
-          with guaranteed results without spending thousands each month. <br />
-          <br /> So, I built a software which guarantees that you increase your
-          reviews & ratings on Google.
-          <br />
-          <br /> I want to provide value to you and only get paid if I deliver
-          you results.. Hence, I give you all your money back if I don't deliver
-          you results.
-          <br />
-          <br /> */}
           A little bit about me... <br />I was working as a financial accountant
-          in Deloitte, UK. I was happy.... <br />
+          in Deloitte, UK. I was comfortable.... <br />
           <br />
           but I've always wanted to add value to people, and the best way I know
           to do that is through entrepeneurship... so I risked it all, came back
-          to Malaysia to start a crypto company, which generated revenue of over
-          RM 1 million . In 2023, I moved on from that project and learnt to
-          code. <br />
+          to Malaysia to start a crypto company, which generated a profit of RM
+          1 million in 2021. In 2023, I moved on from that project and learnt to
+          code as I saw from my previous venture how crucial it can be to a
+          business. <br />
           <br />
-          Whilst I was learning, I talked to many GP & Dental clinic owners and
-          ran my own research. <br />
+          After a few months of learning, I decided to start coding for others,
+          and RaveWave Digital was born!
           <br />
-          Long story short, I found that many doctors/dentists wanted to market
-          their clinic... but didn't know how to?
           <br />
-          <br />I wanted to fix this, and together with my tech skills, I
-          started RaveWave Digital. <br />
+          Initially, we focused on the medical GP sector in Malaysia, but now
+          we're venturing out.
+          <br />
           <br />I can't wait to add vaue to your business!
         </p>
       </div>
