@@ -18,12 +18,29 @@ const Founder = () => {
       </div>
       <div className="text-neutral-300">
         <h2 className="text-4xl pb-5 md:text-5xl bg-clip-text text-transparent bg-gradient-to-b from-blue-500 to-neutral-50 bg-opacity-50">
-          About the Founder
+          About Me
         </h2>
         <p className="mt-4 text-lg font-normal max-w-lg mx-auto md:mx-0">
           Yellow there, <br />
-          I'm Shaun Menezes, and I run RaveWave Digital. Hope all is groovy with
-          you whilst you're reading this!
+          I'm Shaun Menezes, welcome to my little home on the internet..
+          <br /> <br />
+          I now run a coding bootcamp, which guarantees people a job in tech.
+          <br />I am also building EZLA, an AI SaaS that generates personalised
+          job-specific resumes & cover letters in under 20 seconds.
+          <br />
+          <br />
+          I'm passionate about code and teaching people how to code without
+          doing a Degree or Master's.... It was tough to learn to code... Now
+          that I've finally figured it out, I want to help to do the same...
+          <br />
+          <br />
+          One thing about me, I love psychology..My original dream when I was
+          young was to be a psychologist!
+        </p>
+
+        {/* <p className="mt-4 text-lg font-normal max-w-lg mx-auto md:mx-0">
+          Yellow there, <br />
+          I'm Shaun Menezes, welcome to my little home on the internet..
           <br /> <br />
           A little bit about me... <br />I was working as a financial accountant
           in Deloitte, UK. I was comfortable.... <br />
@@ -43,7 +60,7 @@ const Founder = () => {
           we're venturing out.
           <br />
           <br />I can't wait to add vaue to your business!
-        </p>
+        </p> */}
       </div>
     </div>
   );

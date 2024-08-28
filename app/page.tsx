@@ -13,41 +13,27 @@ import QualifyModal from "./qualify-modal";
 import StepByStep from "./step-by-step";
 import Services from "./services";
 import Reviews from "./reviews";
+import Timeline from "./timeline";
 
 export default function Home() {
-  // const salesLetterRef = useRef<HTMLDivElement>(null);
-
-  // const scrollToSalesLetter = () => {
-  //   salesLetterRef.current?.scrollIntoView({
-  //     behavior: "smooth",
-  //     // block: "start",
-  //     inline: "nearest",
-  //   });
-  // };
-
   return (
     <div className="w-full md:items-center md: justify-center bg-black/[0.96] antialiased bg-grid-whilte/[0.02] relative overflow-hidden">
       <Navbar />
       <Spotlight className="hidden md:flex md:left-80" />
       <div className="p-4 mx-auto relative z-10 w-full pt-10 md:pt-20 px-2">
         <div className="text-4xl pb-5 md:text-7xl px-6 text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to bg-neutral-400 bg-opacity-50">
-          BUILDING COOL TECH PRODUCTS <br />
-          <br />
-          cause its fun
+          I ENJOY BUILDING TECH PRODUCTS <br />
+          {/* <br />
+          cause its fun */}
         </div>
         <p className="pt-4 text-lg font-normal text-neutral-300 max-w-3xl text-center mx-auto px-4">
           By Shaun Menezes
-          <br />
         </p>
         <div className="w-full pt-20">
+          <Founder />
+          <Timeline />
           <Services />
           <Reviews />
-          {/* <StepByStep scrollToSalesLetter={scrollToSalesLetter} /> */}
-          {/* <div ref={salesLetterRef}>
-            <SalesLetter />
-          </div> */}
-          {/* <WhyItMatters /> */}
-          <Founder />
           <FAQS />
         </div>
       </div>

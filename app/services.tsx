@@ -18,7 +18,8 @@ const Services = () => {
           text-neutral-300 max-w-lg 
           text-center mx-auto"
       >
-        Focusing mainly on B2B products..
+        Inititially, I mainly built tech products for the GP medical insdustry
+        in Malaysia.. Now, I've expanded my reach.
       </p>
       <Link
         href={"/portfolio"}

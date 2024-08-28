@@ -32,7 +32,7 @@ const Navbar = () => {
               className="cursor-pointer text-slate-400 text-lg"
               onClick={handleLogoClick}
             >
-              RaveWave Digital
+              Shaun Menezes
             </h1>
             {/* <Image
               priority

@@ -31,17 +31,16 @@ const FAQS = () => {
               your money-back.
             </AccordionContent>
           </AccordionItem>
-          {/* <AccordionItem value="item-2">
+          <AccordionItem value="item-2">
             <AccordionTrigger>
-              Why isn't every clinic suitable for Google Ads?
+              Are you accepting new projects at the moment?
             </AccordionTrigger>
             <AccordionContent>
-              Google Ads will show your clinic, together with it's ratings &
-              reviews to thousands of people. I don't think it's wise to spend
-              on Google Ads, only to show your average ratings & reviews.
-              Improve that first, then it's worth to spend on Google Ads.
+              No, I'm focusing on my bootcamp and my AI SaaS. You can contact me
+              for me to refer you to affordable developers. I will try and help
+              you out!
             </AccordionContent>
-          </AccordionItem> */}
+          </AccordionItem>
           {/* <AccordionItem value="item-3">
             <AccordionTrigger>
               How can you increase my ratings & reviews?

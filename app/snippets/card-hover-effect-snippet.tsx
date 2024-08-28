@@ -29,7 +29,7 @@ export const projects = [
     ),
     title: "EZLA",
     description:
-      "Generate a personalised, job specific cover letter in under 20 seconds. On average, it takes an hour to do it manually! This is still in beta mode. Launching Q3 2024.",
+      "Generate a personalised, job specific cover resume and letter in under 20 seconds. On average, it takes an hour to do it manually! This is still in beta mode. Launching Q3 2024.",
   },
   {
     icon: (
@@ -40,7 +40,7 @@ export const projects = [
     ),
     title: "Rating Up",
     description:
-      "Our one-of-a-kind Rating Up software. We filter out bad reviews before they reach Google. So you don't have to worry about bad reviews no more! Guaranteed results, and if not, a 100% money-back guarantee",
+      "I innovated this myself. It is my one-of-a-kind Rating Up software. RatingUp filters out bad reviews before they reach Google. So you don't have to worry about bad reviews for your business no more! Guaranteed results, and if not, a 100% money-back guarantee",
   },
   {
     icon: (
@@ -61,6 +61,6 @@ export const projects = [
       </div>
     ),
     title: "General",
-    description: "AI chatbots, websites and all that other good stuff",
+    description: "Websites and all that other good stuff",
   },
 ];

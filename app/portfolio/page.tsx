@@ -45,8 +45,8 @@ export default function Portfolio() {
                 EZLA AI
               </h1>
               <p className="text-white text-lg md:text-xl">
-                Generate a personalised job specific cover letter in under 20
-                seconds using AI.
+                Generate a personalised job specific resume and cover letter in
+                under 20 seconds using AI.
                 <br />
                 You dont need to spend 45 mins writing one now!
               </p>

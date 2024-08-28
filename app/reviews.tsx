@@ -56,7 +56,7 @@ const Reviews = () => {
          bg-clip-text text-transparent bg-gradient-to-b
           from-blue-500 to-neutral-50 bg-opacity-50 mt-20"
       >
-        Some of our client reviews...
+        Some of my client reviews...
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 py-10 px-4">
         {reviews.map((review, index) => (
